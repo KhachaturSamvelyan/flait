@@ -1,0 +1,34 @@
+doctype html
+
+block variables
+
+block links
+
+block scripts
+
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		meta(http-equiv="X-UA-Compatible" content="ie=edge")
+		title #{title}
+		link(rel='stylesheet', type='text/css', href="css/pages/" + link)
+		link(rel="icon" href="img/fav.png" sizes="32x32")
+		script(src="js/jquery.js")
+		link(rel="preconnect" href="https://fonts.gstatic.com")
+		link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet")
+		//- link(rel="stylesheet" href="css/swiper.css")
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css" integrity="sha512-uMIpMpgk4n6esmgdfJtATLLezuZNRb96YEgJXVeo4diHFOF/gqlgu4Y5fg+56qVYZfZYdiqnAQZlnu4j9501ZQ==" crossorigin="anonymous")
+		script(src="js/swiper.js")
+		link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css")
+		script(src="js/flat.js")
+
+		
+	
+	body
+		block header
+		block content
+		block footer
+		script(type="text/javascript" defer src="js/" + js)
+
+

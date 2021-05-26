@@ -1,0 +1,662 @@
+extends ../layout/layout.pug
+
+block variables
+	- var title = 'Новогодние каникулы в Арктике!';
+
+block links
+	- var link = 'main.css';
+
+block scripts
+	- var js = 'index.js';
+
+block header
+	include ../blocks/header.pug
+
+block content
+	style.
+
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+		}
+
+		input[type=number] {
+		-moz-appearance: textfield;
+		}
+		
+	section.menu_items
+		a(href="#about").ab О нас
+		a(href="#tour").tr Туры
+		a(href="#feedback").fd Отзывы
+	section.main
+		.swiper-container.swiper1
+			.slider_arr(style="z-index: 999;")
+				img.left_mob(src="img/leftarr.svg", alt="")
+				.sw1.bull
+				img.next_mob(src="img/right.svg", alt="")
+			.swiper-wrapper
+				.swiper-slide.slider_blok(style="background-image:url('img/slider_img1.jpg')")
+					.container.mobile_slider_blok.slider_blok_item
+						.right_blok
+							h1 Новогодние каникулы в Арктике!
+							h2 Соверши свое путешествие в полярную ночь
+							p Ближайшие даты:  
+								span 03-06.01.2021
+							p Продолжительность:  
+								span 4 дня / 3 ночи
+							.tour1
+								p География тура:
+								ul
+									li Мурманск
+									li Териберка
+									li Ловозеро
+							.price
+								h5 Цены от:
+								.df_price
+									h3 36 598 ₽
+									p За 1 человека
+							.main_button
+								a(href="#one").show Заказать тур
+								a(href="tour.html") Подробнее о туре
+							
+
+
+					.container.slider_blok_item.slider_blok_item_deks
+						img.next(src="img/right.svg", alt="")
+						.sw1.bull
+						.right_blok
+							h1 Новогодние каникулы в Арктике!
+							h2 Соверши свое путешествие в полярную ночь
+							p Ближайшие даты:  
+								span 03-06.01.2021
+							p Продолжительность:  
+								span 4 дня / 3 ночи
+							.main_button
+								a(href="#one").show Заказать тур
+								a(href="tour.html") Подробнее о туре				
+						.left_blok
+							.price
+								h5 Цены от:
+								.df_price
+									h3 36 598 ₽
+									p За 1 человека
+							.tour1
+								p География тура:
+								ul
+									li Мурманск
+									li Териберка
+									li Ловозеро
+				
+				.swiper-slide.slider_blok(style="background-image:url('img/slider_img1.jpg')")
+					.container.mobile_slider_blok.slider_blok_item
+						.right_blok
+							h1 Новогодние каникулы в Арктике!
+							h2 Соверши свое путешествие в полярную ночь
+							p Ближайшие даты:  
+								span 03-06.01.2021
+							p Продолжительность:  
+								span 4 дня / 3 ночи
+							.tour1
+								p География тура:
+								ul
+									li Мурманск
+									li Териберка
+									li Ловозеро
+							.price
+								h5 Цены от:
+								.df_price
+									h3 36 598 ₽
+									p За 1 человека
+							.main_button
+								a(href="#one").show Заказать тур
+								a(href="tour.html") Подробнее о туре
+							//- .slider_arr
+							//- 	img.left_mob(src="img/leftarr.svg", alt="")
+							//- 	.sw1.bull
+							//- 	img.next_mob(src="img/right.svg", alt="")
+
+
+
+					.container.slider_blok_item.slider_blok_item_deks
+						img.next(src="img/right.svg", alt="")
+						.sw1.bull
+						.right_blok
+							h1 Новогодние каникулы в Арктике!
+							h2 Соверши свое путешествие в полярную ночь
+							p Ближайшие даты:  
+								span 03-06.01.2021
+							p Продолжительность:  
+								span 4 дня / 3 ночи
+							.main_button
+								a(href="#one").show Заказать тур
+								a(href="tour.html") Подробнее о туре				
+						.left_blok
+							.price
+								h5 Цены от:
+								.df_price
+									h3 36 598 ₽
+									p За 1 человека
+							.tour1
+								p География тура:
+								ul
+									li Мурманск
+									li Териберка
+									li Ловозеро
+			
+				.swiper-slide.slider_blok(style="background-image:url('img/slider_img1.jpg')")
+					.container.mobile_slider_blok.slider_blok_item
+						.right_blok
+							h1 Новогодние каникулы в Арктике!
+							h2 Соверши свое путешествие в полярную ночь
+							p Ближайшие даты:  
+								span 03-06.01.2021
+							p Продолжительность:  
+								span 4 дня / 3 ночи
+							.tour1
+								p География тура:
+								ul
+									li Мурманск
+									li Териберка
+									li Ловозеро
+							.price
+								h5 Цены от:
+								.df_price
+									h3 36 598 ₽
+									p За 1 человека
+							.main_button
+								a(href="#one").show Заказать тур
+								a(href="tour.html") Подробнее о туре
+							//- .slider_arr
+							//- 	img.left_mob(src="img/leftarr.svg", alt="")
+							//- 	.sw1.bull
+							//- 	img.next_mob(src="img/right.svg", alt="")
+
+
+
+					.container.slider_blok_item.slider_blok_item_deks
+						img.next(src="img/right.svg", alt="")
+						.sw1.bull
+						.right_blok
+							h1 Новогодние каникулы в Арктике!
+							h2 Соверши свое путешествие в полярную ночь
+							p Ближайшие даты:  
+								span 03-06.01.2021
+							p Продолжительность:  
+								span 4 дня / 3 ночи
+							.main_button
+								a(href="#one").show Заказать тур
+								a(href="tour.html") Подробнее о туре				
+						.left_blok
+							.price
+								h5 Цены от:
+								.df_price
+									h3 36 598 ₽
+									p За 1 человека
+							.tour1
+								p География тура:
+								ul
+									li Мурманск
+									li Териберка
+									li Ловозеро
+	section.about.container#about
+		p.p Наша компания работает на рынке внутреннего и международного туризма в Арктике с 1999 года. Имеет опыт приема делегаций из Финляндии, Швеции, Норвегии, Великобритании, Германии, Нидерландов и Южной Кореи. Мы тщательно продумываем все детали поездок и сотрудничаем только с проверенными партнерами, работающими в рамках законов Российской Федерации.
+		.about_right
+			p В нашей команде только опытные гиды  и переводчики. Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом- героем Мурманском.
+			.about_right_blok
+				p 20
+				span Лет в туризме
+
+	section.our_team.container
+		h2.title Наша команда
+		.swiper-container.swiper3
+			.swiper-wrapper.our_team_blok
+					.our_team_blok_item.swiper-slide
+						img(src="img/team1.svg", alt="")
+						h2 Бахтина Алёна
+						p Сотрудник Мурманского областного краеведческого музея. Объездила все туристические и нетуристические уголки Мурманской области. Любит путешествовать по России и миру, поэтому знает толк в нескучных экскурсиях. Влюблена в Север и уверена, что вы полюбите его тоже!
+					.our_team_blok_item.swiper-slide
+						img(src="img/team2.svg", alt="")
+						h2 Екатерина Зернова
+						p Сотрудник Мурманского областного краеведческого музея. Объездила все туристические и нетуристические уголки Мурманской области. Любит путешествовать по России и миру, поэтому знает толк в нескучных экскурсиях. Влюблена в Север и уверена, что вы полюбите его тоже!
+					.our_team_blok_item.swiper-slide
+						img(src="img/team3.svg", alt="")
+						h2 Виктория Флайтгрупова
+						p Сотрудник Мурманского областного краеведческого музея. Объездила все туристические и нетуристические уголки Мурманской области. Любит путешествовать по России и миру, поэтому знает толк в нескучных экскурсиях. Влюблена в Север и уверена, что вы полюбите его тоже!
+
+			.feed_pag
+				img.prev4(src="img/leftarr.svg", alt="")
+				.sw3
+				img.next4(src="img/right.svg", alt="")
+
+
+	section.tour#tour
+		.tour_blok_1
+			.tour_blok_1_item(style="background-image:url('img/tour1.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Террасы Мурманска
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 3500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour2.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Село Териберка на берегу океана
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 6500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour1.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Поморское село Варзуга
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 3560 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour4.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Предприятие по переработке северных ягод
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 1000 ₽
+								img.link(src="img/link.svg", alt="")
+
+		.tour_blok_1
+			.tour_blok_1_item(style="background-image:url('img/tour5.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Хаски-парк «Лесная Елань»
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 6000 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item.fifty.ord(style="background-image:url('img/tour6.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Этнографический музей под открытым небом «Самь-Сыйт»
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 7500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour7.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Кировск — город горняков
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 11500 ₽
+								img.link(src="img/link.svg", alt="")
+			
+
+
+		.tour_blok_1
+			.tour_blok_1_item(style="background-image:url('img/tour8.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Долина славы
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 3500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour9.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Олений двор
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 5500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour10.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Североморск — город морской славы
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 3500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item(style="background-image:url('img/tour11.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over ППарк активного отдыха «Северное сияние»
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 1000 ₽
+								img.link(src="img/link.svg", alt="")
+								
+
+		.tour_blok_1
+			
+			.tour_blok_1_item.fifty(style="background-image:url('img/tour12.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Усадьба «Канентъявр»
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 3500 ₽
+								img.link(src="img/link.svg", alt="")
+			.tour_blok_1_item.fifty(style="background-image:url('img/tour13.jpg')")
+				a(href="")
+					.overlay
+						.content
+							h2.over Охота за северным сиянием
+							p Сезонность:  
+								span Всесезонный
+							p Продолжительность:  
+								span 4 часа
+							p Размер группы:  
+								span 2-17 человек
+						.price_tour
+							span Цена от: 
+							.price_tour_flex
+								h2 5500 ₽
+								img.link(src="img/link.svg", alt="")
+
+
+
+	section.feedback.container#feedback
+		.feedback_left
+			h2 Отзывы клиентов
+			.pag
+				img.prev(src="img/l.svg", alt="")
+				img.next2(src="img/r.svg", alt="")
+		.feedback_right
+
+			.swiper-container.swiper2
+				
+				.swiper-wrapper
+					.swiper-slide
+						.avatar
+							img(src="img/people_1.jpg", alt="")
+							h2 Бахтина Алёна
+						.text_blok
+							.sw
+							p Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском - форпостом России в Арктике. Мы организуем для Вас увлекательные поездки на побережье Баренцева моря, в села Варзугу и Териберку, в этнографические деревни и на базы отдыха. С нами вместе Вы побываете на охоте за Северным сиянием и отведаете поморской ухи, встретитесь с шаманом и пообщаетесь с оленями, прокатитесь на снегоходе и в оленей упряжке.
+						
+					
+					
+					.swiper-slide
+						
+						.avatar
+							img(src="img/people_1.jpg", alt="")
+							h2 Бахтина Алёна
+							
+						.text_blok
+							.sw
+							p Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском - форпостом России в Арктике. Мы организуем для Вас увлекательные поездки на побережье Баренцева моря, в села Варзугу и Териберку, в этнографические деревни и на базы отдыха. С нами вместе Вы побываете на охоте за Северным сиянием и отведаете поморской ухи, встретитесь с шаманом и пообщаетесь с оленями, прокатитесь на снегоходе и в оленей упряжке.
+						
+					.swiper-slide
+						
+						.avatar
+							img(src="img/people_1.jpg", alt="")
+							h2 Бахтина Алёна
+							
+						.text_blok
+							.sw
+							p Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском - форпостом России в Арктике. Мы организуем для Вас увлекательные поездки на побережье Баренцева моря, в села Варзугу и Териберку, в этнографические деревни и на базы отдыха. С нами вместе Вы побываете на охоте за Северным сиянием и отведаете поморской ухи, встретитесь с шаманом и пообщаетесь с оленями, прокатитесь на снегоходе и в оленей упряжке.
+						
+					.swiper-slide
+						
+						.avatar
+							img(src="img/people_1.jpg", alt="")
+							h2 Бахтина Алёна
+							
+						.text_blok
+							.sw
+							p Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском - форпостом России в Арктике. Мы организуем для Вас увлекательные поездки на побережье Баренцева моря, в села Варзугу и Териберку, в этнографические деревни и на базы отдыха. С нами вместе Вы побываете на охоте за Северным сиянием и отведаете поморской ухи, встретитесь с шаманом и пообщаетесь с оленями, прокатитесь на снегоходе и в оленей упряжке.
+						
+					.swiper-slide
+						
+						.avatar
+							img(src="img/people_1.jpg", alt="")
+							h2 Бахтина Алёна
+							
+						.text_blok
+							.sw
+							p Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском - форпостом России в Арктике. Мы организуем для Вас увлекательные поездки на побережье Баренцева моря, в села Варзугу и Териберку, в этнографические деревни и на базы отдыха. С нами вместе Вы побываете на охоте за Северным сиянием и отведаете поморской ухи, встретитесь с шаманом и пообщаетесь с оленями, прокатитесь на снегоходе и в оленей упряжке.
+						
+				.pag_mobile
+					img.prev(src="img/l.svg", alt="")
+					.sw
+					img.next2(src="img/r.svg", alt="")
+			
+	footer#contact
+		.footer_blok.container
+			.footer_left
+				.footer_header
+					h2 Контакты
+					.social
+						a(href="")
+							img(src="img/ws.svg", alt="")
+						a(href="")
+							img(src="img/tm.svg", alt="")
+						a(href="")
+							img(src="img/vb.svg", alt="")
+				.footer_contact
+					.footer_numbers
+						h3 Телефоны
+						a(href="tel:+7 (8152) 288 886") +7 (8152) 288 886 
+						a(href="tel:+7 996 560 19 01 ") +7 996 560 19 01 
+						a(href="tel:+7 911 300 00 99") +7 911 300 00 99
+						h4 Социальные сети
+						.soc
+							a(href="https://vk.com/" target="_blank")
+								img(src="img/vk.svg", alt="")
+							a(href="https://www.facebook.com/" target="_blank")
+								img(src="img/fb.svg", alt="")
+							a(href="https://www.instagram.com/" target="_blank")
+								img(src="img/inst.svg", alt="")
+
+					.footer_adress
+						h3 Адрес
+						p 183038, г. Мурманск, Гостиница Меридиан, ул. Воровского д. 5/23, офис 660 
+						h4 E-mail
+						a(href="mailto:info@flaitgroup.com") info@flaitgroup.com
+				
+				.footer_icons
+					p Создано при содействии центра поддержки экспорта Мурманской области
+					.footer_icons_item
+						img(src="img/item1.png", alt="")
+						img.sd_icon(src="img/item2.png", alt="")
+						img.sm_icon(src="img/item3_1.png", alt="")
+
+				.footer_bottom
+					p © Flait Group, 2020. Все права защищены. 
+						br
+						|Цифровое агентство «Делай»
+			img.img_contact(src="img/contact.png", alt="")
+
+			
+
+
+
+	.modal_one(style="z-index:999;")
+		#one.modal
+			img.mod(src="img/modal_close.svg", alt="")
+			form(action="")
+				.modal_inputs
+					h2.h22 Заявка на оформление тура
+					.input_blok
+						label Имя
+						input(type="text" placeholder="Ваше имя")
+					.input_blok
+						label Телефон
+						input(type="text" placeholder="+7")
+					.input_blok.mr
+						label Email
+						input(type="text" placeholder="pochta@mail.ru")
+					.input_blok
+						label Желаемая дата
+						input.datep(type="text" placeholder="00.00.0000" )
+						img(src="img/cal.svg", alt="")
+					.input_blok.mr
+						label Количество человек
+						input(type="number" placeholder="2")
+				.modal_black
+					ul
+						li
+							img.x(src="img/x.svg", alt="")
+							img(src="img/icon_li.png", alt="")
+							a(href="") Село Териберка на берегу океана
+						li
+							img.x(src="img/x.svg", alt="")
+							img(src="img/icon_li.png", alt="")
+							a(href="") Село Териберка на берегу океана
+					.add
+						.add_blok
+							img(src="img/add.svg", alt="")
+							h2 Добавить тур
+						a(href="") Заказать тур
+					.tour_li_content
+						.tour_li
+							ul
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+							ul
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Предприятие по переработке северных ягод
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+								li
+									img.x(src="img/x.svg", alt="")
+									img(src="img/icon_li.png", alt="")
+									a(href="") Село Териберка на берегу океана
+
+

@@ -1,0 +1,805 @@
+@import "../base/base"
+@import "../base/fonts"
+@import "../blocks/header"
+@import "../blocks/footer"
+
+
+
+
+
+.mega_menu
+    position: absolute
+    width: 100%
+    right: 0
+    background: white
+    z-index: 99
+    top: 85px
+    padding: 30px 0px 60px
+    display: none
+    .mega_item
+        display: flex
+        ul
+            width: 50%
+            &:first-child
+                margin-right: 78px
+            li
+                border-bottom: 1px solid #E5E5E5
+                padding-bottom: 15px
+                transition: 0.3s
+                &:hover
+                    border-bottom: 1px solid  #1857A3
+                a 
+                    display: block
+                    font-family: 'Montserrat', sans-serif
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 12px
+                    line-height: 100%
+                    text-transform: uppercase
+                    color: #000000
+                    transition: 0.3s
+                    position: relative
+            
+                &:hover
+                    color: #1857A3
+                    &:hover
+                        &:after
+                            content: none
+                        
+
+
+    h2 
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 160%
+        color: #000000
+        margin-bottom: 40px
+    ul
+        li
+            display: flex
+            margin-bottom: 15px
+            align-items: center
+            img
+                margin-right: 15px
+                margin-left: 0!important
+
+
+.top_level
+    background: white
+    top: 0
+    padding: 24px 0px
+    .tpl
+        display: flex
+        justify-content: space-between
+    svg
+        stroke: black
+        z-index: 999
+        cursor: pointer
+    h2
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 100%
+        text-transform: uppercase
+        color: #000000
+
+.main
+    padding: 114px 0px 180px
+    background-image: url('../../img/bg.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    background-attachment: fixed
+    .main_blok
+        h1
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 80px
+            line-height: 100%
+            color: #FFFFFF
+            max-width: 795px
+            margin-bottom: 20px
+        p
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 24px
+            line-height: 160%
+            color: #FFFFFF
+
+
+
+.all_info
+    padding: 40px 40px 56px 40px
+    border: 1px solid #C4C4C4
+    border-radius: 0px 20px 20px
+    position: relative
+    top: -80px
+    background: white
+   
+    h2
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 50px
+        line-height: 100%
+        color: #000000
+        margin-bottom: 71px
+    &_blok
+       
+        display: flex
+        align-items: center
+        &_item
+            display: flex
+            align-items: flex-start
+            img
+                position: relative
+                top: -8px
+            .item_content
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                margin-left: 15px
+                p
+                    font-family: Montserrat, sans-serif
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 12px
+                    line-height: 100%
+                    text-transform: uppercase
+                    color: #000000
+            h3
+                font-family: Montserrat, sans-serif
+                font-style: normal
+                font-weight: normal
+                font-size: 20px
+                line-height: 100%
+                color: #101214
+                margin-top: 36px
+
+            &:not(:last-child)
+                margin-right: 83px
+                
+
+.second
+    h4
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 160%
+        color: #000000
+        margin-top: 20px
+        margin-bottom: 120px
+        max-width: 758px
+    img
+        width: 100%
+    .wait
+        display: flex
+        align-self: flex-start
+        justify-content: space-between
+        margin: 90px 0px 120px
+        h2
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 50px
+            line-height: 100%
+            color: #000000
+            max-width: 303px
+        p
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 140%
+            color: #000000
+            max-width: 572px
+
+
+
+
+.places_info
+    .reverse
+        flex-direction: row-reverse
+    .places_items
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        margin-bottom: 120px
+        .places_items_content
+            h2
+                font-family: Montserrat, sans-serif
+                font-style: normal
+                font-weight: bold
+                font-size: 12px
+                line-height: 100%
+                text-transform: uppercase
+                color: #000000
+                border-top: 1px solid #C4C4C4
+                margin-bottom: 158px
+                padding-top: 20px
+            p
+                font-family: Montserrat, sans-serif
+                font-style: normal
+                font-weight: normal
+                font-size: 24px
+                line-height: 160%
+                color: #000000
+                max-width: 520px
+
+
+.images
+    margin-bottom: 120px
+    .gallery_blok
+        display: flex
+        align-items: flex-start
+        margin-bottom: 90px
+        justify-content: space-between
+    .desc_info
+        display: flex
+        align-items: flex-start
+    .gallery_desc
+        margin-right: 87px
+        p 
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: bold
+            font-size: 12px
+            line-height: 100%
+            text-transform: uppercase
+            color: #000000
+            display: block
+            margin-bottom: 30px
+        ul
+            li
+                font-family: Montserrat, sans-serif
+                max-width: 505px
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 140%
+                color: #000000
+                position: relative
+                margin-bottom: 10px
+                display: flex
+                align-items: center
+                padding-left: 20px
+                &:before
+                    content: ''
+                    transform: rotate(-45deg)
+                    width: 8px
+                    height: 8px
+                    position: absolute
+                    left: 0
+                    background: #1857A3
+                    border-radius: 2px
+
+    .red_li
+        ul
+            li
+                &:before
+                    background: #E62229
+
+
+
+
+.bottom_title
+    padding: 235px 0px
+    background-image: url('../../img/bg2.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    h2
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 50px
+        line-height: 100%
+        text-align: center
+        color: #FFFFFF
+        text-align: center
+
+
+
+.rent
+    margin-top: 90px
+    margin-bottom: 120px
+    display: flex
+    align-items: flex-start
+    justify-content: space-around
+    .left_blok
+        min-width: 759px
+        h2
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: bold
+            font-size: 12px
+            line-height: 100%
+            text-transform: uppercase
+            color: #000000
+            margin-bottom: 20px
+            padding-bottom: 16px
+            border-bottom: 1px solid #000000
+        .rent_title
+            display: flex
+            align-items: flex-start
+            justify-content: space-between
+            border-bottom: 1px solid #C4C4C4
+            padding-bottom: 20px
+            margin-bottom: 20px
+            p
+                font-family: Montserrat, sans-serif
+                font-style: normal
+                font-weight: normal
+                font-size: 20px
+                line-height: 160%
+                color: #000000
+            span
+                font-family: Montserrat, sans-serif
+                font-style: normal
+                font-weight: bold
+                font-size: 20px
+                line-height: 160%
+                color: #000000
+    a
+        background: linear-gradient(117.36deg, #1857A3 32.42%, #0E8BC1 86.8%)
+        border-radius: 5px
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 100%
+        text-transform: uppercase
+        color: #FFFFFF
+        padding: 24px 0px
+        width: 180px
+        display: block
+        text-align: center
+        margin-left: auto
+        margin-top: 30px
+        transition: 0.3s
+        &:hover
+            background: linear-gradient(.326turn,#1857a3 32.42%,#1857a3 86.8%)
+
+
+    .right_blok
+        img
+            margin-bottom: 20px
+        p
+            max-width: 337px
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 140%
+            color: #000000
+
+
+
+
+footer
+    background-color: #101214
+    padding: 84px 0px 66px
+    .copy
+        display: flex
+        justify-content: space-between
+        margin-top: 15px
+
+    .footer_left
+        max-width: 441px
+        .footer_header
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 80px
+            h2 
+                font-family: Montserrat, sans-serif
+                font-style: normal
+                font-weight: normal
+                font-size: 50px
+                line-height: 100%
+                color: #FFFFFF
+            .social
+                display: flex
+                align-items: center
+                img
+                    &:hover
+                        filter: invert(65%) sepia(95%) saturate(829%) hue-rotate(184deg) brightness(94%) contrast(100%)
+                a
+                    display: block
+                    &:not(:last-child)
+                        margin-right: 30px
+
+
+
+    .footer_numbers
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        h3 
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+            margin-bottom: 20px
+        a
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+            display: block
+        h4
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+            margin-bottom: 25px
+        .soc
+            display: flex
+            align-items: center
+            img
+                &:hover
+                    filter: invert(65%) sepia(95%) saturate(829%) hue-rotate(184deg) brightness(94%) contrast(100%)
+            a
+                display: block
+                &:not(:last-child)
+                    margin-right: 30px
+
+    .footer_adress
+        h3
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+            margin-bottom: 20px
+        p 
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+            max-width: 205px
+        h4
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+            margin-top: 40px
+            margin-bottom: 20px
+        a
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+
+    .footer_bottom
+        margin-top: 41px
+        p
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 140%
+            color: #FFFFFF
+    .footer_icons
+        margin-top: 46px
+        p
+            font-family: Montserrat, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 12px
+            line-height: 140%
+            color: #FFFFFF
+            max-width: 311px
+            display: block
+            margin-bottom: 15px
+        .footer_icons_item
+            display: flex
+
+            img
+                object-fit: contain
+                &:first-child
+                    margin-right: 40px
+
+
+
+
+
+
+
+@media (max-width: 1184px)
+    
+    .rent
+        margin-top: 40px
+        margin-bottom: 40px
+        flex-wrap: wrap
+        margin-bottom: 20px
+        .left_blok
+            max-width: 100%
+            min-width: 100%
+        a
+            margin-left: 0
+            margin: 0 auto
+        .right_blok
+            display: none
+
+
+    .images
+        margin-bottom: 40px
+        .gallery_blok
+            flex-direction: column
+            margin-bottom: 20px
+            img
+                margin-bottom: 30px
+                width: 100%
+                border-radius: 10px
+        .desc_info
+            flex-direction: column
+        .gallery_desc
+            margin-right: 0
+            margin-bottom: 10px
+
+
+
+    .container
+        max-width: 97%
+    .main
+        .main_blok
+            h1
+                max-width: 100%
+                text-align: center
+            p
+                text-align: center
+
+
+@media (max-width: 768px)
+    .rent 
+        .left_blok 
+            .rent_title p
+                font-size: 16px
+                line-height: 120%
+    .main
+        padding: 40px 0px 105px
+        .main_blok
+            h1
+                text-align: left
+                font-size: 40px
+                line-height: 100%
+                margin-bottom: 20px
+            p
+                text-align: left
+                font-size: 18px
+                line-height: 160%
+
+
+    .second
+        h4
+            font-size: 18px
+            line-height: 140%
+            margin-top: 0
+            margin-bottom: 40px
+
+        img
+            border-radius: 10px
+            object-fit: cover
+        .wait
+            margin-top: 40px
+            flex-direction: column
+            margin-bottom: 40px
+            h2
+                font-size: 30px
+                line-height: 100%
+                margin-bottom: 30px
+            p
+                font-size: 14px
+                line-height: 140%
+                max-width: 100%
+
+
+    .bottom_title
+        padding: 140px 0px
+        h2
+            font-size: 30px
+            line-height: 100%
+
+
+
+
+
+@media (max-width: 1040px)
+    .places_info
+        .places_items
+            flex-direction: column
+            margin-bottom: 30px
+            img
+                width: 100%
+                margin-bottom: 30px
+            .places_items_content
+                h2
+                    margin-bottom: 30px
+                p
+                    font-size: 18px
+                    line-height: 160%
+
+
+    .all_info
+        padding: 20px 20px 31px 20px
+        h2
+            font-size: 30px
+            line-height: 100%
+            margin-bottom: 30px
+        .all_info_blok
+            flex-direction: column
+            align-items: flex-start
+            .all_info_blok_item
+                margin-bottom: 30px
+                margin-right: 0
+                .item_content
+                    margin-right: 0
+                    p
+                        font-size: 12px
+                        line-height: 100%
+                h3
+                    font-size: 18px
+                    line-height: 160%
+                    margin-top: 10px
+
+
+
+@media (max-width: 1184px)
+    footer
+        padding: 40px 0px 31px
+        .copy
+            flex-direction: column
+            .footer_icons
+                margin-top: 20px
+            .footer_icons_item
+                flex-direction: column
+               
+                img
+                    margin-bottom: 10px
+            .footer_bottom
+                margin-top: 20px
+        .footer_left
+            max-width: 100%
+            .footer_header
+                align-items: flex-start
+                flex-direction: column
+                margin-bottom: 30px
+                h2
+                    font-family: Montserrat, sans-serif
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 30px
+                    line-height: 100%
+                    color: #FFFFFF
+                    margin-bottom: 10px
+        .footer_numbers
+            flex-direction: column
+            .footer_adress
+                margin: 20px 0px
+            .social_links
+                margin-top: 20px
+
+
+
+@media (max-width: 576px)
+    .container
+        max-width: 100%
+        padding: 0px 20px
+    .all_info
+        padding: 20px 20px 31px!important
+        max-width: 97%!important
+
+
+
+
+
+.mega_menu3
+    top: 140px
+
+
+
+@media (max-width: 1184px)
+ 
+    .mega_menu
+        top: 0px
+        padding-left: 0px
+        padding-right: 0px
+        -webkit-overflow-scrolling: touch
+
+        h2
+            margin-bottom: 0
+        .mega_item
+            flex-direction: column
+
+            ul
+                margin-bottom: 0
+                margin-right: 0
+                width: 100%
+                li
+                    justify-content: flex-start
+
+
+
+.top_level
+    position: sticky
+    top: 0
+
+.mega_menu3
+    top: 60px
+
+
+
+@media (max-width: 768px)
+    .sd_icon
+        display: none
+    .footer_icons_item
+        flex-direction: row!important
+        img
+            &:not(:last-child)
+                margin-right: 40px!important
+    .images 
+        .red_li
+            margin-top: 40px
+
+        .gallery_desc 
+            ul 
+                li
+                    margin-bottom: 15px
+                    &:before
+                        top: 7px
+    .places_items_content
+        &:not(:last-child)
+            margin-bottom: 40px
+
+        .h2_dk
+            display: none
+    .h2_mb
+        font-family: Montserrat, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 100%
+        text-transform: uppercase
+        color: #000000
+        border-top: 1px solid #C4C4C4
+        margin-bottom: 20px
+        padding-top: 20px
+        display: inline-block
+        width: 100%
+
+
+@media (min-width: 769px)
+    .h2_mb
+        display: none
+
+    .sm_icon
+        display: none
+
+
+
+.top_level 
+    cursor: pointer
+
+
+
+

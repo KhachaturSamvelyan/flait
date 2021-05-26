@@ -1,0 +1,193 @@
+extends ../layout/layout.pug
+
+block variables
+    - var title = 'Новогодние каникулы в Арктике!';
+
+block links
+    - var link = 'tour.css';
+
+block scripts
+    - var js = 'index.js';
+
+block header
+    include ../blocks/header.pug
+
+block content
+
+
+    section.top_level(style="z-index:9999;")
+        .container.tpl
+            h2 Село Териберка на берегу океана
+            svg.topl(xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none")
+                path.path_arr2(d="M9.90918 0.909088L5.36374 4.90909L0.818294 0.909088" stroke="" stroke-width="2" style="&#10;    ")
+            
+            .mega_menu.mega_menu3(style="z-index:9;")
+                .container
+                  
+                    .mega_item
+                        ul
+                            li
+                                img(src="img/icon_li.png", alt="")
+                                a(href="") Террасы Мурманска
+                            li
+                                img(src="img/icon_li.png", alt="")
+                                a(href="") Террасы Мурманска
+                            li
+                                img(src="img/icon_li.png", alt="")
+                                a(href="") Террасы Мурманска
+                          
+                        ul
+                            li
+                                img(src="img/icon_li.png", alt="")
+                                a(href="") Село Териберка на берегу океана
+                            li
+                                img(src="img/icon_li.png", alt="")
+                                a(href="") Террасы Мурманска
+                            li
+                                img(src="img/icon_li.png", alt="")
+                                a(href="") Террасы Мурманска
+                           
+    section.main
+        .main_blok
+            .container
+                h1 Село Териберка на берегу океана
+                p Соверши свое путешествие на край света!
+    section.all_info.container
+        h2 Общая информация
+        .all_info_blok
+            .all_info_blok_item
+                img(src="img/geo.svg", alt="")
+                .item_content.before1
+                    p География тура
+                    h3 Териберка
+            .all_info_blok_item
+                img(src="img/geo1.svg", alt="")
+                .item_content
+                    p Гдаты тура
+                    h3 Ежедневно
+            .all_info_blok_item
+                img(src="img/geo2.svg", alt="")
+                .item_content.before1
+                    p Размер группы
+                    h3 2-17 человек
+            .all_info_blok_item
+                img(src="img/geo3.svg", alt="")
+                .item_content.before1
+                    p Продолжительность
+                    h3 9-11 часов
+    section.second.container
+        h4 Хотите побывать в тундре на краю земли? А очутиться на берегу Северного ледовитого океана? Заманчиво ощутить ветер Арктики и полюбоваться необычным природным ландшафтом? Тогда, эта поездка для Вас!
+        img(src="img/place.jpg", alt="")
+        .wait
+            h2 Что вас ждет
+            p В нашей команде только опытные гиды и переводчики. Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском. В нашей команде только опытные гиды и переводчики. Путешествуя с нами, Вы получите новые знания об удивительной природе нашего края, его истории и перспективах развития, познакомитесь с традициями народов Крайнего севера и городом-героем Мурманском.
+
+
+    section.places_info.container
+        .places_items
+            h2.h2_mb Драконьи яйца
+            img(src="img/places1.jpg", alt="")
+            .places_items_content
+                h2.h2_dk Драконьи яйца
+                p Вы посетите водопад Малого Батарейного озера и побываете на скалистом морском берегу, где увидите большие овальные камни, напоминающие яйца динозавров.
+        .places_items.reverse
+            h2.h2_mb Песчаные пляжи
+            img(src="img/places2.jpg", alt="")
+            .places_items_content
+                h2.h2_dk Песчаные пляжи
+                p Настоящим открытием станут для Вас архитектурные контрасты села и песчаный пляж с огромными качелями.
+
+    section.container.images
+        .gallery_blok
+            img(src="img/places1.jpg", alt="")
+            img(src="img/places3.jpg", alt="")
+        .desc_info
+            .gallery_desc
+                p Что включено в стоимость
+                ul
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+            .gallery_desc.red_li
+                p Что включено в стоимость
+                ul
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+                    li Описание пункта может содержать сколько угодно текста
+
+    section.bottom_title
+        .container
+            h2 «Я был в Арктике!» - эти слова вы сможете сказать, вернувшись домой
+    section.container.rent
+        .left_blok
+            h2 Цены
+            .rent_title
+                p За одного взрослого
+                span 6 500 ₽
+            .rent_title
+                p Дети до 7 лет
+                span Бесплатно
+            a(href="") Заказать тур
+        .right_blok
+            img(src="img/info.svg", alt="")
+            p При бронировании тура вносится предоплата в размере 1 000 руб. /чел.
+
+
+    footer#contact
+        .footer_blok.container
+            .footer_left
+                .footer_header
+                    h2 Контакты
+                    .social
+                        a(href="")
+                            img(src="img/ws.svg", alt="")
+                        a(href="")
+                            img(src="img/tm.svg", alt="")
+                        a(href="")
+                            img(src="img/vb.svg", alt="")
+            .footer_contact
+                .footer_numbers
+                    .num
+                        h3 Телефоны
+                        a(href="tel:+7 (8152) 288 886") +7 (8152) 288 886 
+                        a(href="tel:+7 996 560 19 01 ") +7 996 560 19 01 
+                        a(href="tel:+7 911 300 00 99") +7 911 300 00 99
+                    .footer_adress
+                        h3 Адрес
+                        p 183038, г. Мурманск, Гостиница Меридиан, ул. Воровского д. 5/23, офис 660 
+                    .em_blok
+                        h4 E-mail
+                        a(href="mailto:info@flaitgroup.com") info@flaitgroup.
+                    .social_links
+                        h4 Социальные сети
+                        .soc
+                            a(href="https://vk.com/" target="_blank")
+                                img(src="img/vk.svg", alt="")
+                            a(href="https://www.facebook.com/" target="_blank")
+                                img(src="img/fb.svg", alt="")
+                            a(href="https://www.instagram.com/" target="_blank")
+                                img(src="img/inst.svg", alt="")
+
+            .copy
+                .footer_icons
+                    p Создано при содействии центра поддержки экспорта Мурманской области
+                    .footer_icons_item
+                        img(src="img/item1.png", alt="")
+                        img.sd_icon(src="img/item2.png", alt="")
+                        img.sm_icon(src="img/item3_1.png", alt="")
+                .footer_bottom
+                    p © Flait Group, 2020. Все права защищены. 
+                        br
+                        |Цифровое агентство «Делай»
